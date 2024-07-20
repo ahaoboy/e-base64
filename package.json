@@ -1,0 +1,25 @@
+{
+	"name": "e-base64",
+	"version": "0.1.0",
+	"description": "base64 encode decode",
+	"main": "dist/index.js",
+	"types": "dist/index.d.js",
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc -w",
+		"test": "vitest",
+		"lint": "biome check --apply-unsafe  ./",
+		"format": "biome format --write  ./",
+		"lint:fix": "biome lint ./ --write --unsafe",
+		"clear": "rm -rf node_modules dist",
+		"clear-dist": "rm -rf dist"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"typescript": "^5.5.3",
+		"vitest": "^2.0.3"
+	}
+}
