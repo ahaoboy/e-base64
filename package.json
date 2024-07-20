@@ -4,6 +4,7 @@
 	"description": "base64 encode decode",
 	"main": "dist/index.js",
 	"types": "dist/index.d.js",
+	"files": ["dist"],
 	"scripts": {
 		"build": "tsc",
 		"dev": "tsc -w",
