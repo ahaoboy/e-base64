@@ -17,3 +17,11 @@ import { encode } from 'e-base64'
 
 encode(uint8Array)
 ```
+
+## toString
+
+```ts
+import { encode } from 'e-base64'
+
+const fnCode = `${encode}`
+```
